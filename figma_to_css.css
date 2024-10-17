@@ -1,0 +1,45 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: Regular;
+}
+
+.top-section{
+    background-color: #1090cb46;
+    color: white;
+    padding-top: 230px;
+    padding-bottom: 160px;
+    padding-left: 123px;
+    padding-right: 773px;
+
+}
+.top-section h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+    line-height: auto;
+}
+.top-section p{
+    font-size: 16px;
+    margin-bottom: 65px;
+    line-height: 204.3%;
+}
+
+.our-btn{
+   
+    background-color: #1090CB;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 9px 53px;
+    border-radius: 10px;
+}
+
+.our-btn--outline{
+    background-color: transparent;
+    border: 2px solid #1090CB;
+}
+
+.btn-2{
+    margin-right: 10px;
+}
+
