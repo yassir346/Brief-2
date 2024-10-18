@@ -1,45 +1,116 @@
-body, html{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    font-weight: Regular;
+    font-weight: Regular;  
 }
 
-.top-section{
-    background-color: #1090cb46;
-    color: white;
-    padding-top: 230px;
-    padding-bottom: 160px;
-    padding-left: 123px;
-    padding-right: 773px;
 
-}
-.top-section h1{
-    font-size: 40px;
-    margin-bottom: 16px;
-    line-height: auto;
-}
-.top-section p{
-    font-size: 16px;
-    margin-bottom: 65px;
-    line-height: 204.3%;
+
+nav {
+    background-color:white;
+    height: 6em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% auto;
+    align-items: center;
+    justify-items: start;
+    grid-gap: 4em;
+    
 }
 
-.our-btn{
-   
-    background-color: #1090CB;
-    color: #FFFFFF;
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    list-style: none;
+    gap: 35px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+ul li{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+ul a{
     text-decoration: none;
-    padding: 9px 53px;
-    border-radius: 10px;
+    font-weight: 500;
+    color: black;
 }
 
-.our-btn--outline{
-    background-color: transparent;
-    border: 2px solid #1090CB;
+ul a:hover{
+    color: #1090CB;
 }
 
-.btn-2{
-    margin-right: 10px;
+.our-btn {
+    padding: 15px 30px;
+    border-radius: 6px;
+    background-color: #1090CB;
+    color: white;
+    width: 86px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #1090CB;
+    font-weight: 700;
+    font-size: 34px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+.hero{
+    height: 100vh;
+    background-color: #1090cb16;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+.par{
+    display: grid;
+    grid-template-rows: 20% 20% 20%;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 4em;
+    width: 500;
+}
+
+.par h1{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: start;
+}
+
+.par p{
+    font-weight: 200;
+    font-size: 15px;
+    text-align: start;
+}
+
+.ourbtn {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 10em 10em;
+    grid-gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourbtn a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: #1090CB;
+    border-radius: 6px;
+}
+
+.services-icons{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
